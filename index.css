@@ -11,12 +11,12 @@ body {
     color: #ffffff;
 }
 .bg-gif {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./img/birthday.gif.gif);
+    background-image: url(./img/gif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     animation: animate 5s linear infinite;
@@ -33,6 +33,8 @@ body {
   }
  
   .play-button {
+    text-decoration: bold;
+    margin-top: 15px;
     padding: 10px 20px;
     font-size: 16px;
     background: linear-gradient(rgb(158, 158, 152), red, rgb(158, 158, 152));
@@ -60,9 +62,9 @@ h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
 
-#nini-img {
-    height: 150px;
-    width: 150px;
+#shasha-img {
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
@@ -152,11 +154,11 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-hot:hover {
-    background-image: url("./img/reach.gif");
+    background-image: url("./img/react.gif");
 }
 
 #gift-img-genius:hover {
-    background-image: url("./img/genius.gif");
+    background-image: url("./img/cute.gif");
 }
 
 #gift-img-badass:hover {
@@ -174,15 +176,15 @@ h1, h2, h3, h4, p {
     margin-top: 50px;
     padding: 0;
     background-color: #333;
-    color: #a2d2ff;
+    color: white;
     text-align: center;
 }
 
 a {
-    color: #ffffff;
+    color: skyblue;
     text-decoration: none;
 }
 
 #footer a:hover {
-    color: skyblue;
+    color: yellow;
 }
